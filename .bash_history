@@ -149,3 +149,42 @@ cd my
 rails server
 cd my
 rails server
+rails generate model Gif url:
+rails generate model Gif url:string
+git staus
+git add -A
+git status
+git command -m "big fix, yayyyyyy"
+git commit -m "show fix, yayyyyyyyyyyyyyyyy"
+git push
+rails generate model Webapp url:string caption:string
+rails generate model Web url:string name:string mem:string img:string bio:string town:string per:string
+rails generate model web url:string name:string mem:string img:string bio:string town:string per:string
+rails create -d 
+add -d
+create -d
+echo im a gay ass backwards pigeon
+dfsjaoaw
+dfsanlsd
+dkjsafdska
+fdsagfad
+cd my
+rails generate model Gif url:string name:string mem:string img:string bio:string town:string per:string
+bundle install
+bundle update
+rake db:migrate
+rails consil
+railds console
+rails console
+cd my
+rails console
+cd my 
+rails server
+cd my
+rails server
+cd my
+rails generate model Gif url:string name:string mem:string img:string bio:string town:string per:string
+bundle install
+bundle update
+rake db:migrate
+rails console

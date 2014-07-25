@@ -3,21 +3,21 @@
 <div class="container">
 <div class="row">
   <div class='col-md-4'>
-    <img src= <%= @img %> style= down:120px left:200px>
+    <img src= <%= @gif.img %> style= down:120px left:200px>
   </div>
   <div class="col-md-8">
-    <h2><%= @name %> <small>  <%= @mem %> </small></h2>
+    <h2> <%=  @gif.name %> <small> <%= @gif.mem %> </small></h2>
 
   <meta charset="utf-8">
 
   
-  <%= @bio %>
+  <%= @gif.bio %>
     
-  <div> <b>Location:</b>   <%= @town %>
+  <div> <b>Location:</b>   <%= @gif.town %>
   </div>
   <div><b>Completion:</b>
   
-    <img src=  <%= @per %> style: height:80px width:80px>
+    <img src=  <%= @gif.per %> style: height:80px width:80px>
     </div></div></div></div>
 
 
