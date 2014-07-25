@@ -18,12 +18,29 @@ class ApplicationController < ActionController::Base
     g.url = params['url']
     g.name = params['name'] 
     g.mem = params['mem'] 
-g.img = params['img'] 
+    g.img = params['img'] 
     g.bio = params['bio'] 
     g.town = params['town'] 
     g.per = params['per']
     g.save
     redirect_to "/my/#{g.id}"
-    
   end
+
+def edit
+  @gif = Gif.find_by_id(params['id'])
+ end
+    
+    def update
+      g = Gif.find_by_id(params['id'])
+        g.url = params['url']
+    g.name = params['name'] 
+    g.mem = params['mem'] 
+    g.img = params['img'] 
+    g.bio = params['bio'] 
+    g.town = params['town'] 
+    g.per = params['per']
+       g.save
+    redirect_to "/my/#{g.id}"
+    end
 end
+

@@ -10,14 +10,18 @@
 
   <meta charset="utf-8">
 
-  
   <%= @gif.bio %>
+  
     
   <div> <b>Location:</b>   <%= @gif.town %>
   </div>
   <div><b>Completion:</b>
   
     <img src=  <%= @gif.per %> style: height:80px width:80px>
+    
+    <div class="links">
+     <a href="/my/ <%= @gif.id %>/edit">edit</a>
+    </div>
     </div></div></div></div>
 
 

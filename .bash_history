@@ -210,3 +210,27 @@ cd my
 rails server
 cd my
 rails server
+git status
+git add -A
+git status
+git push
+git status
+git add -A
+git status
+git commit -m "add pro create"
+git push
+git status
+git add -A
+git status
+git commit -m "updtae 1.0.0"
+git push
+git status
+git add -A
+git status
+git commit -m "update 1.0.0"
+git push
+rails create blah
+create blah
+rails create new blah
+cd my
+rails server
