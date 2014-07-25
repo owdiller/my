@@ -8,4 +8,22 @@ class ApplicationController < ActionController::Base
     
     render 'show'
     end
+  
+  def new
+  end
+  
+  
+  def create 
+    g = Gif.new
+    g.url = params['url']
+    g.name = params['name'] 
+    g.mem = params['mem'] 
+g.img = params['img'] 
+    g.bio = params['bio'] 
+    g.town = params['town'] 
+    g.per = params['per']
+    g.save
+    redirect_to "/my/#{g.id}"
+    
+  end
 end

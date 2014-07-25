@@ -188,3 +188,25 @@ bundle install
 bundle update
 rake db:migrate
 rails console
+git status
+git add -A
+git commit -m "url change"
+git push
+cd my
+rails console
+cd my
+rails server
+cd my
+rails server
+cd my
+rails server
+cd my
+rails server
+echo i like blues clues
+echo hellooooooooooooooooooooooooooooooooooooooooooooooo
+rails server
+rails server
+cd my
+rails server
+cd my
+rails server
