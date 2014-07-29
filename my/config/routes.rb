@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
-  get '/my/:id' => 'application#show'
-  get '/new_gif' => 'application#new'
-  get '/create_gif' => 'application#new'
-  get '/make_gif' => 'application#create'
-  get '/my/:id/edit' => 'application#edit'
-  get '/update_gif/:id' => 'application#update'
-  get '/gifs/:id/destroy' => 'application#destroy'
+  get '/myindex' => 'gifs#index'
+  get '/my/:id' => 'gifs#show'
+  get '/new_gif' => 'gifs#new'
+  get '/create_gif' => 'gifs#new'
+  get '/make_gif' => 'gifs#create'
+  get '/my/:id/edit' => 'gifs#edit'
+  get '/update_gif/:id' => 'gifs#update'
+  get '/gifs/:id/destroy' => 'gifs#destroy'
 end

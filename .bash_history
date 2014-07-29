@@ -334,3 +334,39 @@ git add -A
 git status
 git commit -m "HAIL MARY"
 git push
+cd my
+git status
+git add -A
+git status
+git commit -m "fail version"
+git push
+cdc my
+rails server
+cd my
+rails server
+cd my
+git status
+git init
+git add -A
+git status
+git commit -m "index"
+git push
+git init\
+cd my
+git init
+git add -A
+gitt status
+git status
+git commit -m "index"
+git push
+git push origin master
+git commit
+git init
+git add -A
+git status
+git commit -m "index"
+git push
+cd my
+git add -A
+git status
+git commit
