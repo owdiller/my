@@ -3,11 +3,9 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
   def show
-    
     @gif = Gif.find_by_id(params['id'])
-    
-    render 'show'
-    end
+  
+  end
   
   def new
   end
@@ -32,7 +30,7 @@ def edit
     
     def update
       g = Gif.find_by_id(params['id'])
-        g.url = params['url']
+      g.url = params['url']
     g.name = params['name'] 
     g.mem = params['mem'] 
     g.img = params['img'] 
@@ -42,5 +40,12 @@ def edit
        g.save
     redirect_to "/my/#{g.id}"
     end
-end
+  
+  def destroy
+    g = Gif.find_by_id(params['id'])
+    g.destroy
+  
+ 
+  end
+  end
 

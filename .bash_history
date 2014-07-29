@@ -234,3 +234,103 @@ create blah
 rails create new blah
 cd my
 rails server
+cd my
+rails server
+cd my
+rails server
+git status
+git add -A
+git status
+git commit -m "ne edit"
+git push
+cd create new
+rails create cd
+rails new rr
+cd rr
+rails server
+echo fucking felix the cat
+cd rr
+rails generate model bookmark
+rails generate model Bookmark
+ghfjfsb
+echo computers suck
+cd rr
+rails server
+cd my
+params_find_by_id[1]
+rails generate Database
+rails generate model Bookmark url:string description:string name:string
+rake db:migrate
+g = Bookmark.new
+Bookmark.new
+rails console
+cd my
+rails server
+cd my
+git pull
+rails sever
+rails server
+cd my
+Gif.find_by_id(19)
+GIf.find_by_id("19")
+Gif.find_by_id('19')
+rails console
+rails console
+cd my
+rails server
+cd my
+rails installer
+rails server
+cd my
+rails server
+cd rr
+rails server
+rails server
+rails server
+rails server
+cd rr
+rails server
+rails server
+server
+rails server
+cdmy
+cd my
+clear
+rails server
+cd rr
+rails server
+rails server
+rails server
+cd ..
+cd rr
+rails server
+rails server -p 8080
+cd bookmark
+rails server
+cd ..
+rails new bookmarks
+cd bookmarks
+rails server
+rails new server
+git init
+git add -A
+git status
+git commit -m "bookmark
+cd bookmarks
+git status
+git commit -m "bookmark"
+git push
+git init
+git add README.md
+git commit -m "book"
+git remote add origin https://github.com/owdiller/bookmark.git
+git push -u origin master
+echo im a stupid computer
+cd bookmarks
+rails server
+rails server
+git status
+git add -A
+git status
+git commit -m "HAIL MARY"
+git push
