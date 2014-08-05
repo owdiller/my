@@ -1,48 +1,3 @@
-paster
-git remote add origin https://github.com/owdiller/my.git
-git push -u origin master
-git status
-git status
-git commit -m "adds a line to route file"
-git push
-git status
-git add -a
-git commit -m "adds a line to routes file"
-git push
-                                                       git status
-git add -A
-git status
-git commit -m "beta 0.0"
-git push
-rails generate model Ruby url:string caption:string
-echo hello master
-echo i love u
-echo im stupid
-echo echo 
-echo hi
-echo you r awsomeecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hiecho hi!
-echo im a blabbering id10t
-git push
-rails new test
-rails new 3
-rails new ass.
-git clone https://github.com/hs-webdev-exercises/bc_routes_view.git
-cd bc_routs_view
-cd 'bc_routes_view'
-ls
-cs ass.
-cd ass.
-cd ass.
-cd 'ass.'
-cd ' ~' 
-cd ass.
-git clone https://github.com/hs-webdev-exercises/bc_routes_view.git
-cd bc_routes_view
-bundle install
-git checkout master
-git checkout
-cd bc_routes_view
-cd bc_routes_view
 cd my
 rails server
 rails server
@@ -498,3 +453,48 @@ rails d model Sifnin
 rails d model Signin
 cd jokesapp
 rails s 
+git init
+git add -A
+git status
+git commit -m "Final Project"
+git remote add origin https://github.com/owdiller/jokeapp.git
+git push -u origin master
+cd jokesapp
+git init
+git add -A
+git status
+git commit -m "Final Project v1.0.0"
+git remote add origin https://github.com/owdiller/jokeapp.git
+git push -u origin master
+rai;s s
+rails s 
+cd ..
+cd jokesapp
+rails s
+rails s
+rails s
+rrrrrrreafdaddfsadfsddadfsdskdshash xhahrwfvckhhafxchdhffdsahfjdxrrrrrrrrrr
+ls
+cd jokesapp/
+rails server
+cd jokesapp
+rails g model Signin username:string password_digest:string
+rails g model Password username:string password_digest:string
+rails g model Password username:string password_digest:string
+rake db:migrate
+bundle install
+rails g migration AddPasswordDigestToUser
+rake db:migrate
+bundle install
+bundle update
+bundle
+rails console
+rake db:drop
+clear
+rake db:migrate
+rails console
+rake db:reset
+cd jokesapp
+rails s
+cd jokesapp/
+rails server
