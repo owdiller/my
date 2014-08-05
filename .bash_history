@@ -1,69 +1,3 @@
-rails new 5
-rails new my
-cd my
-rails server
-cd
-cd my
-rails server
-rails server
-cd
-cd my
-rails server
-cd my
-rails server
-cd my
-rails server
-echo hello
-is there an echo in here
-echo copy code
-echo me
-echome
-echo 69 is fun
-cd my
-rails server
-cd my
-rails server
-rails server
-cd my
-rails server
-f
-echo your stupid
-rails server
-cd my
-rails server
-cd my
-rails server
-cd my
-rails server
-cd my
-rails server
-git init
-git +A
-git add A
-git add -A
-git status
-git add -A
-git status
-
-echo im stupid
-echo my computer is stupid
-echo that was me
-say im dumb
-f
-f
-f
-f
-f
-echo computers are stupid 5 times
-git commit -m "first commit"
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git commit -m "first commit"
-git status
-hello
-call me master
-echo hello master what can i do for you
-echo "hello master what can i do for you?" * 5
 paster
 git remote add origin https://github.com/owdiller/my.git
 git push -u origin master
@@ -370,3 +304,197 @@ cd my
 git add -A
 git status
 git commit
+git init
+git status
+git add -A
+git status
+git commit -m "new gif controller"
+git oush
+git push
+cd ..
+cd my
+git init
+git status
+git add -A
+git commit -m "index"
+git push
+jiosdfjhgoihgfdskl jh g
+echo im just an idiot
+git init
+git add README.md
+git commit -m "index"
+git remote add origin https://github.com/owdiller/my-again.git
+git push -u origin master
+cd my
+rails server
+cd my
+rails server
+echo hello my master! what do you want me to do? I wont in ANY WAY mess you up... ok it will happen about 30 times...
+dsahfohsdi fva
+asjhgifdshjsd
+dsajkhvdsjahf
+sdfjsljflkd
+lsdahvjkshvjasdk;gfaw
+rails generate model 444
+rails generate new bookmarks
+rails generate book
+rails new Book
+bundle install
+bundle install
+bundle install
+bundle install
+bundle install
+bundle install
+rails new Book
+bundle install
+cd Book
+bundle install
+rails generate starter:basic User name:string email:string
+rails generate starter:basic User name:string email:string
+rails generate starter: basic User name:string email:string
+cd Book
+bundle install
+bundle update
+rails generate starter :basic Username:string email:string
+cd ..
+rails new crud
+cd crud
+rails server
+cd crud
+rails server
+cd crus
+ccd crus
+cd crud
+ rails generate model Ideas
+rails generate model Idea name:string idea:string
+bundle install
+bundle update
+rake db:migrate
+rails console
+cd crud
+cd ..
+rails new crud
+cd crud
+bundle install
+bundle update
+rails generate starter:basic User name:string email:string
+cd crud
+bundle install
+bundle update
+rails generate starter:basic User name:string email:string
+rails generate model Idea name:string idea:string
+rails generate model Indigo name:string idea:string
+rails generate model Rail name:string idea:string
+cd crud
+rails generate model Rail name:string idea:string
+bundle install
+bundle update
+rake db:migrate
+rails console
+cd crud
+rails server
+cd crud
+bundle install
+rails generate starter:basic Idea name:string
+cd crud
+bundle install
+bundle update
+rails generate starter:basic Idea name:string
+cd crud
+bundle insta;ll
+bundle install
+rails generate starter:basic Idea name:string
+cd generator
+rails server
+cd generator
+git init
+git add -A
+git init
+git stautus
+git status
+git commit -m
+cd generator
+git init
+git add README.md
+git status
+git add -A
+git status
+git commit -m "generator idea"
+git remote add origin https://github.com/owdiller/generator.git
+git push -u origin master
+rails new generator
+cd generator
+bundle install
+bundle install
+bundle install
+rails generate starter:basic User idea:string
+rake db:migrate
+rails console
+cd bookmarks
+rake db:migrate
+rails server
+rails new Pokemon
+bundle install
+cd pokemon
+bundle install
+rails generate starter:basic Trainer name:string img:string trainer_id:integer
+rails generate starter:basic Pokeball trainer_id:integer pokemon_id:integer
+rails generate starter:basic Pokemon name:string img:string pokemon_id:integer
+rails generate starter:basic Pokemontype pokemon_id:integer type_id:integer
+rails generate starter:basic Type name:string img:string type_id:integer
+rake db:migrate
+rails server
+rails new pokemon
+cd pokemon
+bundle install
+rails generate starter:basic Trainer name:string img:string trainer_id:integer
+rails new pokemon
+cd pokemon
+bundle install
+rails generate starter:basic Trainer name:string img:string trainer_id:integer
+rails new pokemon
+cd pokemon
+bundle install
+rails generate starter:basic Trainer name:string image:string trainer_id:integer
+cd  pokemon
+bundle install
+rails generate starter:basic Trainer name:string image:string trainer_id:integer
+cd pokemon
+bundle install
+bundle update
+rails generate starter:basic Trainer name:string img:string trainer_id:integer
+rails new jokesapp
+cd jokesapp
+bundle install
+rails generate starter:basic Users username:string profilepicture:string description:string rating:integer
+rails generate starter:basic Rating username:string joke_id:string rating:integer
+rails generate starter:basic Jokes joke:string user_id:integer joke_id:integer rating:integer
+rake db:migrate
+rails s
+cd jokesapp
+rails g migration O
+rake db:migrATE
+rake db:migrate
+rails g migration delete
+rails g migration Delete
+rails generate migration Y
+rails g migration To
+cd jokesapp
+rails console
+cd jokeapp
+cd jokesapp
+rails s
+cd jokesapp
+rails s
+rails s
+cd jokesapp
+rails s
+rails g model signin
+rails g model Signin
+cd jokesapp
+rails g Signin
+rails g model Signin
+rails d model Sifnin
+rails d model Signin
+cd jokesapp
+rails s 
