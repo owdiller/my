@@ -11,12 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140805151023) do
+ActiveRecord::Schema.define(version: 20140805135510) do
 
   create_table "jokes", force: true do |t|
     t.string   "joke"
     t.integer  "user_id"
-    t.integer  "joke_id"
     t.integer  "rating"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -31,11 +30,11 @@ ActiveRecord::Schema.define(version: 20140805151023) do
 
   create_table "ratings", force: true do |t|
     t.string   "username"
-    t.string   "joke_id"
+    t.integer  "joke_id"
+    t.integer  "user_id"
     t.integer  "rating"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "user_id"
   end
 
   create_table "users", force: true do |t|
@@ -43,9 +42,9 @@ ActiveRecord::Schema.define(version: 20140805151023) do
     t.string   "profilepicture"
     t.string   "description"
     t.integer  "rating"
+    t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "password_digest"
   end
 
 end

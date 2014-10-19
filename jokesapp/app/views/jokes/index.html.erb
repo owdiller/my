@@ -1,18 +1,19 @@
 <h1>Jokes</h1>
 
-<p><button><a href="/new_joke">Add a New Joke</a></button></p>
+<p><button type="submit" class="btn btn-default">
+    <span class="glyphicon glyphicon-plus"><a href="/new_joke">Add a New Joke</a></button></p>
 
 
-<button>
-<a href="/jokes/<%= Joke.all[rand(Joke.all.length)].id  %>">Jokes</a>
+<button type="submit" class="btn btn-default">
+    <span class="glyphicon glyphicon-refresh">
+<a href="/jokes/<%= Joke.all[rand(Joke.all.length)].id  %>">Random Joke</a>
 </button>
-
+  
 <table class="table">
   <thead>
     <tr>
       <th>Joke</th>
-      <th>Creator   <span>  </span> </th> <br>
-      <br>
+      <th>Creator</th> <br>
       <th>Rating</th>
       <th></th>
       <th></th>
@@ -26,14 +27,16 @@
           <td><%= joke.joke %></td>
       <td><%= joke.user.username %></td>
           <td><%= joke.joke_id %></td>
-      <% joke.ratings.each do |rating| %>
-      <td><%= rating.rating %></td>
-      <% end %>
-          <td><button><a href="/jokes/<%= joke.id %>">Joke Showpage </a></button>
-        </td>
-      <td><button><a href="/jokes/<%= joke.id %>/edit">Edit Joke</a></button></td>
-      <td><button><a href="/jokes/<%= joke.id %>/destroy">Delete Joke</a></button></td>
+          <% joke.ratings.each do |rating| %>
+          <td><%= rating.rating %></td>
+      <br />
+          <% end %>
+          <td><button><a href="/jokes/<%= joke.id %>">Joke Showpage </a></button></td>
+      <% if session['username'] == "MASTERKEY" %>
+          <td><button><a href="/jokes/<%= joke.id %>/edit">Edit Joke</a></button></td>
+          <td><button><a href="/jokes/<%= joke.id %>/destroy">Delete Joke</a></button></td>
     </tr>
+    <%end%>
   <% end %>
   </tbody>
 </table>
