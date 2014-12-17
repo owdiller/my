@@ -1,0 +1,21 @@
+<h1>Mr. Essenberg</h1>
+
+<div>
+  <strong>e-mail</strong>:<br />
+  <p><%= @teacher.email %></p>
+</div>
+<div>
+  <strong>Biography</strong>:<br />
+  <p><%= @teacher.bio %></p>
+</div>
+<div>
+  <strong>Profile Picture</strong>:<br />
+  <p><img src="<%= @teacher.img %>"  height=300px width=300px></p>
+</div>
+<div>
+  <strong>Advice</strong>:<br />
+  <p><%= @teacher.advice %></p>
+</div>
+<a href="/teachers">Return to Students Index</a> |
+<a href="/teachers/<%= @teacher.id %>/edit">Edit Profile</a> |
+<a href="/teachers/<%= @teacher.id %>/destroy">Delete Profile</a>

@@ -1,0 +1,30 @@
+<h1>Editing Teacher Profile</h1>
+
+<form action="/teachers/<%= @teacher.id %>/update">
+  <div>
+    <label for="name">Name</label><br />
+    <input id="name" name="name" value="<%= @teacher.name  %>" type="text" />
+  </div>
+  <div>
+    <label for="email">e-mail</label><br />
+    <input id="email" name="email" value="<%= @teacher.email  %>" type="text" />
+  </div>
+  <div>
+    <label for="bio">Biography</label><br />
+    <input id="bio" name="bio" value="<%= @teacher.bio  %>" type="text" />
+  </div>
+  <div>
+    <label for="img">Profile Picture (url)</label><br />
+    <input id="img" name="img" value="<%= @teacher.img  %>" type="text" />
+  </div>
+  <div>
+    <label for="advice">Advice</label><br />
+    <input id="advice" name="advice" value="<%= @teacher.advice  %>" type="text" />
+  </div>
+  <div>
+    <br>
+    <input type="submit">
+  </div>
+</form>
+
+

@@ -1,0 +1,65 @@
+<h1>Progress</h1>
+
+<p><a href="/new_comment">Add a Status Report</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Student</th>
+       <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+      <th>Note</th>
+             <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+      <th>Date</th>
+             <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @comments.each do |comment| %>
+    <tr>
+      <td><%= comment.student_id %></td>
+             <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+          <td><%= comment.note %></td>
+             <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+          <td><%= comment.date %></td>
+             <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+      
+       <td><a href="/comments/<%= comment.id %>">Show Report</a>
+       </td>
+             <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+       <td><a href="/comments/<%= comment.id %>/edit">Edit Report</a></td>
+             <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+       <td><a href="/comments/<%= comment.id %>/destroy">Delete Report</a></td>
+      
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+

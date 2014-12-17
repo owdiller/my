@@ -1,0 +1,18 @@
+/home/action/.parts/packages/ruby2.1/2.1.1/bin/ruby extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling crypt_gensalt.c
+compiling wrapper.c
+In file included from wrapper.c:27:0:
+/home/action/.parts/packages/ruby2.1/2.1.1/include/ruby-2.1.0/ruby/backward/util.h:2:2: warning: #warning use "ruby/util.h" instead of bare "util.h" [-Wcpp]
+compiling crypt.c
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+linking shared-object bcrypt_ext.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20141118-2344-1c9d3ho
+installing default bcrypt_ext libraries

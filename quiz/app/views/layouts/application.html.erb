@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="http://www.favicongenerator.com/favicon2/search-20140722-favicon.ico">
+<script src="//code.jquery.com/jquery-git2.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <meta charset="utf-8">
+  <title>GeoQuiz: A free math website</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  
+<ul class="nav nav-pills nav-justified">
+  <li class="active"><a href="/show">Home</a></li>
+  <li class="active"><a href="/users">Users</a></li>
+		<% if session['username'] == 'Tobe' %>
+    <li class="active"><a href="/new_quiz">Add a New Quiz</a></li>
+    <li class="active"><a href="/new_question">Add a New Question</a></li>
+		<% end %>
+		<br>
+		<% if session['username'] == 'Seal' %>
+		<div class="hello">
+			<img src = "http://media.giphy.com/media/ze1dOnguUQNDG/giphy.gif" alt = "dealwithit" height="150px">
+			<img src = "http://media.giphy.com/media/mYbsoApPfp0cg/giphy.gif" alt = "dealwithit" height="150px">
+			<br>
+			<b>HEY SEAL YA GOTTA DEAL WITH IT!</b>
+		<% end %>
+		<% if session['username'] %>
+  <button class="yay"><li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      Geometry Quizzes <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="/quizzes/3">Chapter 1: Introduction to Geometry</a></li>
+      <li><a href="/quizzes/4">Chapter 2: Basic Concepts and Proofs</a></li>
+      <li><a href="/quizzes/5">Chapter 3: Congruent Triangles</a></li>
+      <li><a href="/quizzes/6">Chapter 4: Lines in the Plane</a></li>
+      <li><a href="/quizzes/7">Chapter 5: Parallel Lines and Related Figures</a></li>
+      <li><a href="/quizzes/8">Chapter 6: Lines and Planes in Space</a></li>
+      <li><a href="/quizzes/9">Chapter 7: Polygons</a></li>
+      <li><a href="/quizzes/10">Chapter 8: Similar Polygons</a></li>
+      <li><a href="/quizzes/11">Chapter 9: The Pythagorean Theorem</a></li>
+      <li><a href="/quizzes/12">Chapter 10: Circles</a></li>
+      <li><a href="/quizzes/13">Chapter 11: Area</a></li>
+      <li><a href="/quizzes/14">Chapter 12: Surface Area and Volume</a></li>
+      <li><a href="/quizzes/15">Chapter 13: Coordinate Geomtery Extended</a></li>
+    </ul>
+    </li></button>
+  <div class="container">
+   <div class="hello">
+     <h3><small>You're signed in as <%= session['username'] %>. Welcome to GeoQuiz, <%= session['username'] %>! &nbsp</small></h3>
+    <button><a href="/sessions/destroy">Not You? Click here.</a></button>
+    <% else %>
+		   <div class="container">
+   <div class="hello">
+		 <br>
+    <button class="glyphicon glyphicon-lock"><a href="/sessions/new">Sign-in</a></button>
+    <% end %>
+  </div>
+  <br>
+		<% if flash[:notice] %>
+    <div class="alert alert-info">
+      <%= flash[:notice] %>
+    </div>
+  <% end %>
+  <br>
+
+<%= yield %>
+  </div>
+    <br>
+    <br>
+<div class="container">
+ <div class="hello">
+<!-- begin htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=(""+window.location).replace(/'/g,"%27") || hcb_user.PAGE, h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24ZE8Y.b9axlc%2F8jeE.Evkp%2F"+"&opts=16862&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end htmlcommentbox.com -->
+	</div>
+  </div>
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-4 col-md-offset-4">
+      <div class ="hello">
+<footer>
+  <p>Created by: Tobe Obochi</p>
+  <p>Copyright 2014.</p>
+  <p>Thank you for coming to GeoQuiz. If you love this website, please 
+   <button type="submit" class="btn-btn-default">
+    <span class="glyphicon glyphicon-usd"><a href="/donate">Donate</a></span>
+   </button>
+</footer>
+      </div>
+    </div>
+  </div>
+</div>
+		</div>
+	</div>
+</body>
+</html>

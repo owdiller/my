@@ -1,0 +1,8 @@
+THIS SITE IS FOR MATH QUIZZES.
+
+
+Student wants to study for quiz. He goes on site and does a quiz.
+
+Teacher wants quiz questions for test. She goes to site and finds questions in the quiz.
+
+Student wants to sign in to retake a quiz they got wrong a few times. They sign in and retake it.

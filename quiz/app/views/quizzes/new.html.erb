@@ -1,0 +1,41 @@
+<h1>New Quiz
+  <br>
+  <small>Here you may add a new quiz. Again, please use this wisely and make a geometry quiz.</small>
+</h1>
+
+<form action="/create_quiz">
+  <div>
+    <label for="chapter_number">Chapter Number</label><br />
+    <select name="chapter_number">
+			<% @chapter_count.times do |n| %>
+      <option value="<%= n+1 %>"><%= n+1 %></option>
+      <% end %>
+    </select>
+  </div>
+  <div>
+    <label for="chapter_name">Chapter Name</label><br />
+		  <select name="chapter_name">
+				<% @chapter_name.each do |nam| %>
+      <option value="<%= nam %>"><%= nam %></option>
+      <% end %>
+    </select>
+  </div>
+  <div>
+    <label for="number_of_questions">Number of Questions</label><br />
+    <input id="number_of_questions" name="number_of_questions" type="text" />
+  </div>
+	
+	<div>
+    <label for="user_id">User</label><br />
+   <select name = "user_id">
+		 <% @users.each do |user|%>
+			<option value = "<%= user.id %>"><%= user.name %></option>
+		<% end %>
+		</select>
+  </div>
+  <br>
+  <div>
+    <input type="submit">
+  </div>
+</form>
+

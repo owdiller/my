@@ -1,385 +1,3 @@
-bundle install
-rails g migration AddPasswordDigestToUser
-rake db:migrate
-bundle install
-bundle update
-bundle
-rails console
-rake db:drop
-clear
-rake db:migrate
-rails console
-rake db:reset
-cd jokesapp
-rails s
-cd jokesapp/
-rails server
-git init
-git add -A
-git status
-git commit -m "No bug beta final? v 1.0.1"
-git push
-git init
-git add -A
-git status
-git commit -m "v 1.0.1."
-cd..
-cd jokesapp
-git init
-git add -A
-git status
-git commit -m "no bug v1.0.1."
-git push
-git init
-git add -A
-git status
-git commit -m "new buttons v1.0.2"
-git push
-cd jokesapp
-rails c
-cd jokesappapp
-cd jokesapp
-rails s
-cd jokesapp
-rails s
-cd jokesapp
-rails c
-clear
-rails c
-cd..
-cd ..
-git clone 27b12b243685039c191e79912515fb694a7931a1
-git clone https://github.com/owdiller/jokeapp.git
-cd jokeapp
-rails s
-echo hi
-cd jokesapp
-git init
-git add -A
-git status
-git commit -m "Big CHanges, USer new features v1.1.0"
-git push
-rails c
-cd jokesapp
-rails s 
-cd jokesapp
-git init
-git add -A
-git commit -m "heroku???"
-git status
-bundle
-git add -A
-git commit -m "push it to heroku baby"
-heroku login
-git status
-heroku create
-heroku keys:add
-git push heroku master
-heroku run rake db:migrate
-heroku run consolee
-heroku run console
-heroku run rake db:migrate
-clear
-bundle
-git status
-git add -A
-git commit -m "work"
-heroku login
-git status
-heroku create
-heroku keys:add
-git push heroku master
-heroku run rake db:migrate
-heroku run console
-cd jokesapp
-rails s 
-cd jokesapp
-git init
-git add -A
-git commit -m "h"
-git status
-bundle 
-git status
-cd ..
-cd jokesapp
-rails s
-cd jokeapp
-rails c
-cd jokesapp
-rails c
-rake db:reset
-CD JOKESAPP
-cd jokesapp
-bundle
-git status
-git add -A
-git commit -m "v1.1.1."
-git push
-bundle
-git status
-git add -A
-git commit -m "please"
-heroku login
-git status
-heroku create
- ssh-keygen -t rsa
- ssh-keygen -t rsa
-heroku create
- heroku keys:add
-git push heroku master
-heroku run rake db:migrate
-http://cryptic-springs-3996.herokuapp.com/
- http://cryptic-springs-3996.herokuapp.com/ run rake db:migrate
-rails s
-cd jokesapp
-bundle install
-rake db:seed:dump
-rake db:reset
-rake db:seed
-git init
-git add -A
-git commit -m "v1.1.2"
-git status
-git push
-cd jokesapp
-rake db:reset
-rails s
-cd jokesapp
-git init
-git add -A
-git commit -m "hello"
-git status
-bundle install
-git staus
-git status
-git add -A
-git commit -m "prepped for heroku"
-heroku login
- ssh-keygen -t rsa
-git status
-git add -A
-git commit -m "ll"
-git status
-heroku create
-git push heroku master
-heroku run rake db:migrate
-rake db:seed
-rake db:seed
-heroku run console
-heroku run rake db:seed
-heroku login
-cd jokesapp
-heroku run rake db:seed
-rails c
-heroku logs
-heroku logs --help
-heroku logs --app jokes
-heroku logs --app jokesapp
-heroku apps
-heroku logs --app jokesappp
-heroku login
-heroku run rake db:seed
-heroku cd jokesappp
-heroku jokesapp
-heroku jokesappp
-heroku find app jokesapp
-heroku login 
-cd..
-clear
-cd ..
-clear
-cd jokesapp
-bundle
-git status
-git add -A
-git commit -m "pleasewor"
-heroku login
-git status
-heroku create
-heroku create
-heroku keys add
-heroku keys:add
-git push heroku master
-heroku run rake db:seed
-heroku run rake db:migrate:seed
-heroku run rake db:migrate 
-cd joesapp
-cd jokesapp
-git init
-git add -A
-git commit -m "getting angry v1.1.3"
-git status
-git push
-cd jokesapp
-bundle
-git status
-git add -A
-git commit-m "SDGHGHGHJJNHGF"
-git commit -m "JDSJIKDJa"
-heroku login
-cd ..
-clear
-cd jokesapp
-heroku run rake db:seed
-heroku login'
-exit
-fim a dumbass computer
-cd jokesapp
-heroku login
-heroku run rake db:seed
-cd jokesapp
-git add -A
-git commit -m "work pls"
-git status
-bundle
-git status
-git add -A 
-git commit "workworkworkplsplspls"
-git commit -m "workwokr"
-heroku login
-git status
-heroku create
-heroku keys:add
-git push heroku master
-clear
-cd jokesap[
-cd jokesapp
-heroku login
-heroku run jokesappp
-heroku run rake db:seed
-heroku run rake db:seed
-git init
-git status
-git commit -m "plswork"
-heroku login
-git push heroku master
-git push heroku master 
-git push heroku master 
-git push heroku master 
-heroku run rake db:seed
-heroku run rake db:seedheroku run rake db:seed
-heroku run rake db:seed
-git init
-git add -A
-git commit -m "r"
-git status
-git push heroku master
-heroku run rake db:seed
-rake db:seed
-heroku run rake db:seed
-heroku run rake db:seed
-heroku run rake db:seed
-git init
-git add -A
-git commit -m "h"
-git push heroku master
-heroku run rake db:seed
-heroku logs
-cd..
-clear!
-clear
-git init
-git add -A
-git commit "plsworkjustpls"
-git commit -m "plsworkjustpls"
-git status
-git push heroku master
-heroku run rake db:seed
-heroku run rake db:drop
-heroku run rake db:seed
-heroku run rake db:seeds
-heroku run rake db:seed
-heroku run rake db:seed
-heroku run rake db:seed
-cd jokesapp
-rails s
-cd jokesapp
-git init
-git add -A
-git commit -m "5"
-git status
-git push heroku origin master
-git push heroku master
-heroku run rake db:seed
-heroku run rake db:seed
-heroku run rake db:seed --trace
-rake db:reset
-heroku run rake db:migrate
-heroku run rake db:reset
-heroku run rake db:seed
-git init
-git add -A
-git status
-git commit -m "last commit today v1.1.4"
-git push
-cd jokesapp
-rails s
-cd jokesapp
-git init
-git add -A
-git status
-git commit -m "final final v1.2.0"
-git push
-cd jokesapp
-rails s 
-echo josh is strange
-suto rails install
-echo hello
-echo how are you
-puts hi
-echo teddy like pen 15
-clone jokesapp
-cd jokesapp
-clone jokesapp
-git push
-..
-...
-cd ''
-cd ..
-git clone
-git clone https://github.com/owdiller/jokeapp.git
-cd jokeapp
-cd mer
-rake db reset
-rake db drop
-rake db:reset
-rails s
-cd jokesapp
-rake db:drop
-rake db:migrate
-rake db:reset
-rake db:migrtate
-return hi
-echo hi
-rails g new HI
-rails g U
-new G
-g GH
-rails generate new U
-rails new U
-rails s 
-\rails s 
-rails s
-rails s 
-rails new homepage
-rails s
-cd homepage
-rails s 
-cd homepage
-git init
-git update -a
-git commit -m "v1"
-git remote add origin https://github.com/owdiller/homepage.git
-git push -u origin master
-git push -u origin master
-cd homepage
-rails s
-cd homePAGE
-cd homepage
-rails g model Data date:string note:string
-rails g model My date:string note:string 
-bundle install
-bundle update
 model
 rake db:migrate
 cd ..
@@ -498,3 +116,385 @@ cd ..
 clear
 cd hi
 rails s
+git init
+git add -A
+git commit -m "dda"
+git status
+git add -A
+git status
+git commit -a
+git status
+cd hi
+git init
+git add -A
+git status
+git status
+git add -A
+git status
+git status
+heroku create
+heroku keys:add
+git push heroku master
+heroku run rake db:migrate
+heroku run console
+cd hi
+git init
+git add -A
+git status
+git commit -m "prepped for heroku"
+heroku login
+ ssh-keygen -t rsa
+;;
+heroku keys:add
+heroku create
+git status
+git push heroku master
+git push heroku master
+heroku run rake db:migrate
+rails new quiz
+cd quiz
+git clone https://github.com/MasterOfUniverse121/Secret-Octo-GeoQuiz.git
+bundle install
+bundle update
+cd ..
+cd Quiz
+ rails s
+cd Quiz
+git init
+git add -A
+git status
+git add -A
+git status
+git commit -m "v"
+git push heroku master
+cd ..
+clear
+rails new quiz
+cd U
+rails s
+cd quiz
+cd ..
+cd quiz
+rails
+bundle install
+rails s
+rails s
+cd ..
+cd jokesappp
+cd jokesaopp
+cd jokesapp
+rails s
+rails s
+cd Quiz
+rake db:migrate
+bundle
+bundle update
+rails s
+cd jokesapp
+rails s
+cd quiz
+rails s
+rails new code
+cd code
+bundle install
+bundle update
+rails generate starter:basic User name:string email:string img:string bio:string
+rails generate starter:basic Comment note:string date:string
+rails generate starter:basic Teacher name:string email:string bio:string comment:string
+bundle
+rake db:migrate
+rails s
+cd code
+rails s
+cd code
+rails s
+rails new pong
+cd pong
+git clone https://github.com/owdiller/javascript-pong.git
+bundle install
+bundle update
+rails s
+git clone https://github.com/owdiller/javascript-pong.git
+bundle
+bundle update
+rake db:migrate
+cd ..
+cd javascript-pong
+rails s
+bundle
+rake db:migrate
+cd..
+cd ..
+rails new e
+cd e
+rails s
+rails s
+git clone https://github.com/jfarmer/ruby-pong.git
+bundle install
+rake db:migrate
+cd ruby-pong
+rails s
+cd ..
+clear
+rails new r
+git clone https://github.com/llexileon/rubypong.git
+bundle
+rake db:migrate
+cd code
+rails s
+cd code
+rake db:migrate
+rails new c
+cd ..
+rails c
+rails new c
+bundle install
+cd c
+bundle install
+bundle update
+rake db:migrate
+rails g model starter:basic Student 
+cd ..
+rails new c
+cd c
+bundle install
+bundle update
+rails generate starter:basic Students name:string email:string img:string bio:string
+rails generate starter:basic Teachers name:string email:string bio:string img:string advice:string
+rails generate starter:basic Comments student:string note:string date:string
+rake db:migrate
+rails s
+cd c
+rails g migration C
+rake db:migrate
+rake db:migrate
+rake db:migrate
+rails g migration nn
+rake db:migrate
+cd c
+rails s
+cd c
+rails s
+rails new w
+cd w
+bund;e
+bundle install
+bundle update
+rails generate starter:basic Student name:string email:string bio:string img:string 
+rails generate starter:basic Report student:string note:string date:string
+cd ..
+rails new s
+cd s
+bundle insatll
+bundle install
+bundle update
+rails generate starter:basic Student username:string email:string img:string bio:string  
+rails generate starter:basic Report student_id:integer comment:string date:string
+rails generate starter:basic Teacher name:string email:string img:string bio:string 
+rails s
+cd s
+rails s
+cd s
+rake db:migrate
+git init
+git add -A
+git status
+git commit -m
+git commit -m "v1.0"
+git remote add origin https://github.com/owdiller/Codeclass.git
+git push -u origin master
+cd s
+rails s
+cd s
+git init
+git add -A
+git status
+git commit -m "v1.1"
+git push origin master
+cd s
+bundle install
+bundle update
+bundle install
+bundle update
+rails g migration AddPassword
+rake db:migrate
+rake db:migrate
+rake db:migrate
+rails g migrateion S
+rails g migration S
+rake db:migrate
+rails g migration Add
+rake db:migrate
+rake db:migrate
+rails c
+cd s
+rails s
+cd s
+rails s
+rails new e
+cd s
+bundle install
+bundle update
+bundle install
+bundle update
+rails s
+cd s
+rail s
+rails s
+cd s
+rails c
+cd s
+rails s
+cd s
+rails s
+cd s
+rails s
+cd s
+rails s
+cd s
+rails s
+cd s
+cd s
+rails s
+cd s
+rails s
+cd s
+rails s
+cd s
+git init
+git add -A
+git status
+git add -A
+git commit -m "v1.1 NO BUGSgit add -Agit add -A"
+git push origin master
+echo yaygit push origin mastergit push origin master!
+git inti
+git add -A
+git status
+git commit -m "v1.3, last commit was 1.2"
+git push origin master
+cd s
+rails s
+cd s
+rails s
+cd s
+rails s
+cd s 
+rails s
+cd s
+rails s
+cd s
+rails s
+cd s
+git init
+git add -A
+git statud
+git status
+git add -A
+git commit -m "v1.4 need fix the teachers"
+git push origin master
+git push
+cd s 
+rails s
+cd s
+git init
+git add -A
+git status
+git add -A
+git status
+git commit -m "v4"
+git push origin master
+git push
+cd s
+rails s
+rails g migration
+rails g migration SSSSSS
+rails g migration Ddshadhflkasdjfhasd
+cd s
+rails s
+cd s
+rails g migration N
+rake db_migrate
+rake db:migrate
+rails g migration S
+rake db_migrate
+rake db:migrate
+rake db:migrate
+rails g migration Changeut
+rake db:migrate
+rake db:migrate
+cd s
+rails s
+rails g migration Me
+rails g migration Hello
+cd s
+rails g migration He
+rake db:migrate
+rake db:migrate
+rake db:migrate
+rake db:migrate
+rails g migration Revitup
+rake db:migrate
+rake db:migrate
+rails g migration Fe
+rake db:migrate
+git init 
+git add -A
+git status
+git add -A
+git commit -m "big prob fixgit add -A! v3.0"
+git push origin master
+git push
+cd s
+rails s
+git init
+git add -A
+git status
+git add -A
+git commit -m "v3.1'
+dsafddasfas
+exit
+exit
+sdajfasdj
+sdafjasdfjkljfsdkla
+dsfkafjasd;jfsd;
+sdfsdajfdsafa
+sdfsasd
+fas
+sda
+fda
+ds
+df
+asdsa
+sdf
+sdfa
+asdf
+ds
+asdf
+
+afd
+afsd
+sdf
+sdf
+fsd
+df
+s
+ fd
+sda 
+sdf 
+sdf 
+s
+ d
+df 
+ad
+s
+ d
+a
+asdf
+d sf
+asdf
+df
+s
+adfs 
+ sdf
+dfs

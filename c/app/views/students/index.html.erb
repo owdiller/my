@@ -1,0 +1,53 @@
+<h1>Students</h1>
+
+<p><a href="/new_student">Enroll in Class</a></p>
+
+<table>
+  <h4>Students Enrolled in Intro to Programming</h4>
+  <thead>
+    <tr>
+      <th>Students</th>
+      <th></th>
+      <!--
+      <th>Email</th>
+ 
+      <th>Bio</th>  -->
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @students.each do |student| %>
+    <tr>
+      <td><%= student.name %></td> 
+      <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+          <td><img src="<%= student.img %>" height= 100px width= 100px></td>
+       <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+<!--          <td><%= student.email %></td>
+          
+          <td><%= student.bio %></td> -->
+          <td><a href="/students/<%= student.id %>">Show Profile</a>
+        </td>
+       <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+      <td><a href="/students/<%= student.id %>/edit">Edit Student Profile</a></td>
+       <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+      <td><a href="/students/<%= student.id %>/destroy">Delete Profile</a></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+

@@ -1,0 +1,31 @@
+<h1>Student #<%= @student.id %></h1>
+
+<div>
+  <strong>Name</strong>:<br />
+  <p><%= @student.name %></p>
+</div>
+<div>
+  <strong>e-mail</strong>:<br />
+  <p><%= @student.email %></p>
+</div>
+<div>
+  <strong>Profile Picture</strong>:<br />
+  <p><img src="<%= @student.img %>" height=300px width=300px></p>
+</div>
+<div>
+  <strong>Bio</strong>:<br />
+  <p><%= @student.bio %></p>
+</div>
+
+<ul>
+  <% @comments.each do |t| %>
+  <li><%= comment.note  %></li>
+</ul>
+
+
+
+
+
+<a href="/students">Return to Students Index</a> |
+<a href="/students/<%= @student.id %>/edit">Edit Student Profile</a> |
+<a href="/students/<%= @student.id %>/destroy">Delete Profile</a>

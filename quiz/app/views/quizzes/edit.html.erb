@@ -1,0 +1,38 @@
+<h1>Editing Quiz #<%= @quiz.id %></h1>
+
+<form action="/quizzes/<%= @quiz.id %>/update">
+  <div>
+    <label for="chapter_number">Chapter Number</label><br />
+    <select name="number">
+			<% @chapter_count.times do |n| %>
+      <option value="<%= n+1 %>"><%= n+1 %></option>
+      <% end %>
+    </select>
+  </div>
+  <div>
+    <label for="chapter_name">Chapter Name</label><br />
+    <select name="name">
+			<% @chapter_name.each do |nam| %>
+      <option value="<%= nam %>"><%= nam %></option>
+      <% end %>
+    </select>
+  </div>
+  <div>
+    <label for="number_of_questions">Number of Questions</label><br />
+    <input id="number_of_questions" name="number_of_questions" value="<%= @quiz.number_of_questions  %>" type="text" />
+  </div>
+ 	<div>
+    <label for="user_id">User</label><br />
+   <select name = "user_id" value="<%= @quiz.user_id  %>">
+		 <% @users.each do |user|%>
+			<option value = "<%= user.id %>"><%= user.name %></option>
+		<% end %>
+		</select>
+  </div>
+  <br>
+  <div>
+    <input type="submit">
+  </div>
+</form>
+
+

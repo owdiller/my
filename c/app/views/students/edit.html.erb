@@ -1,0 +1,26 @@
+<h1>Edit Your Profile!</h1>
+
+<form action="/students/<%= @student.id %>/update">
+  <div>
+    <label for="name">Name</label><br />
+    <input id="name" name="name" value="<%= @student.name  %>" type="text" />
+  </div>
+  <div>
+    <label for="email">e-mail</label><br />
+    <input id="email" name="email" value="<%= @student.email  %>" type="text" />
+  </div>
+  <div>
+    <label for="img">Profile Picture (url)</label><br />
+    <input id="img" name="img" value="<%= @student.img  %>" type="text" />
+  </div>
+  <div>
+    <label for="bio">Bio</label><br />
+    <input id="bio" name="bio" value="<%= @student.bio  %>" type="text" />
+  </div>
+  <div>
+    <br>
+    <input type="submit">
+  </div>
+</form>
+
+

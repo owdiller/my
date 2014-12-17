@@ -1,0 +1,23 @@
+<h1>Editing Comment #<%= @comment.id %></h1>
+<h4> Please type what you accomplished and what you learned! </h4>
+<br>
+<form action="/comments/<%= @comment.id %>/update">
+  <div>
+    <label for="student">Student ID</label><br />
+    <input id="student" name="student" value="<%= @comment.student_id %>" type="text" />
+  </div>
+  <div>
+    <label for="note">Note</label><br />
+    <input id="note" name="note" value="<%= @comment.note  %>" type="text" />
+  </div>
+  <div>
+    <label for="date">Date</label><br />
+    <input id="date" name="date" value="<%= @comment.date  %>" type="text" />
+  </div>
+  <div>
+    <br>
+    <input type="submit">
+  </div>
+</form>
+
+

@@ -1,0 +1,54 @@
+<h1>Teacher</h1>
+
+<p><a href="/new_teacher">Add a Teacher</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>   <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+ <!--     <th>e-mail</th> 
+      <th>Bio</th> -->
+    <th>Profile Picture</th>  
+ <!--     <th></th>
+      <th></th>
+      <th></th> -->
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @teachers.each do |teacher| %>
+    <tr>
+          <td><%= teacher.name %></td>
+          <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+      <td><img src="<%= teacher.img %>" height=100px width=100px></td>
+          <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+<!--      <td><%= teacher.email %></td>
+          <td><%= teacher.bio %></td> -->
+          
+          <td><a href="/teachers/<%= teacher.id %>">Show Profile</a>
+        </td>
+          <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+      <td><a href="/teachers/<%= teacher.id %>/edit">Edit Profile</a></td>
+          <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>      
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td> 
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>  
+         <td> <p>&nbsp;&nbsp;&nbsp;&nbsp;        </p>  </td>
+      <td><a href="/teachers/<%= teacher.id %>/destroy">Delete Profile</a></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+
